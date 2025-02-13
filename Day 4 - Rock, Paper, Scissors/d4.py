@@ -1,27 +1,6 @@
 from random import choice
+from rock_paper_scissors_art import rock_ascii, paper_ascii, scissors_ascii
 
-rock_ascii = '''    _______
----'   ____)
-      (_____)
-      (_____)
-      (____)
----.__(___)'''
-
-paper_ascii = '''    _______
----'   ____)____
-          ______)
-          _______)
-         _______)
----.__________)'''
-
-scissors_ascii = """
-    _______
----'   ____)____
-          ______)
-       __________)
-      (____)
----.__(___)
-"""
 ascii_dict = {'rock': rock_ascii, 'paper': paper_ascii, 'scissors': scissors_ascii}
 print("Welcome to the World Tournament of Rock, Paper, Scissors! This is the final match!")
 print("What do you choose?")
