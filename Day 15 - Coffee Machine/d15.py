@@ -33,7 +33,7 @@ machine = resources
 keep_going = True
 
 while keep_going:
-    required_beverage = input('What would you like? (espresso, latte, cappuccino)').lower()
+    required_beverage = input('What would you like? (espresso, latte, cappuccino) ').lower()
     if required_beverage == 'off':
         keep_going = False
         print('Shutting off...')

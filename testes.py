@@ -1,1 +1,4 @@
-("10" in list(range(1, 101)))
+import codecs
+
+string = '&quot;'
+print(codecs.encode(string, 'urlLegacy'))
